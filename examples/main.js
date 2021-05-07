@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 
 Vue.config.productionTip = false
+// 按需引入
+// import vdButton from '../lib/vdButton'
+// Vue.use(vdButton)
 // 导入组件库
 import votreDieu from '../packages'
 
